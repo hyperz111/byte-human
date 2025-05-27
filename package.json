@@ -1,0 +1,38 @@
+{
+  "name": "byte-human",
+  "version": "0.1.0",
+  "description": "Convert byte size to human-readable size",
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "type": "module",
+  "browser": "./index.js",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.cjs",
+      "import": "./index.js",
+      "browser": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "./index.js",
+    "./index.cjs",
+    "./index.d.ts"
+  ],
+  "keywords": [
+    "byte",
+    "bytes",
+    "convert",
+    "conversion",
+    "human-readable",
+    "kilobyte",
+    "megabyte",
+    "gigabyte",
+    "terabyte"
+  ],
+  "author": "Hyper-Z11",
+  "license": "ISC"
+}
