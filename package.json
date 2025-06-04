@@ -1,6 +1,6 @@
 {
   "name": "byte-human",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert byte size to human-readable size",
   "main": "./index.cjs",
   "module": "./index.js",
