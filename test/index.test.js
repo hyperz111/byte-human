@@ -25,5 +25,8 @@ import assert from 'node:assert/strict'
     test('string', () => {
       assert.strictEqual(byteHuman('Hello'), '0B')
     })
+    test('boolean', () => {
+      assert.strictEqual(byteHuman(true), '0B')
+    })
   })
 })()
