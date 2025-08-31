@@ -1,47 +1,52 @@
 {
-  "name": "byte-human",
-  "version": "0.1.1",
-  "description": "Convert byte size to human-readable size",
-  "main": "./index.cjs",
-  "module": "./index.js",
-  "type": "module",
-  "browser": "./index.js",
-  "exports": {
-    ".": {
-      "types": "./index.d.ts",
-      "require": "./index.cjs",
-      "import": "./index.js",
-      "browser": "./index.js"
-    }
-  },
-  "scripts": {
-    "test": "node --test"
-  },
-  "files": [
-    "./index.js",
-    "./index.cjs",
-    "./index.d.ts"
-  ],
-  "keywords": [
-    "byte",
-    "bytes",
-    "convert",
-    "conversion",
-    "human-readable",
-    "kilobyte",
-    "megabyte",
-    "gigabyte",
-    "terabyte"
-  ],
-  "author": "Hyper-Z11",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hyperz111/byte-human.git"
-  },
-  "types": "./index.d.ts",
-  "bugs": {
-    "url": "https://github.com/hyperz111/byte-human/issues"
-  },
-  "homepage": "https://github.com/hyperz111/byte-human#readme"
+	"name": "byte-human",
+	"version": "0.1.1",
+	"description": "Convert byte size to human-readable size",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"type": "module",
+	"browser": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js",
+			"browser": "./dist/index.js"
+		}
+	},
+	"scripts": {
+		"test": "pnpm run build && node --test",
+		"format": "prettier -w **/*.{js*,ts} !dist",
+		"build": "tsc"
+	},
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"byte",
+		"bytes",
+		"convert",
+		"conversion",
+		"human-readable",
+		"kilobyte",
+		"megabyte",
+		"gigabyte",
+		"terabyte"
+	],
+	"author": "Hyper-Z11 (https://github.com/hyperz111)",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hyperz111/byte-human.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hyperz111/byte-human/issues"
+	},
+	"homepage": "https://github.com/hyperz111/byte-human#readme",
+	"packageManager": "pnpm@10.13.1",
+	"devDependencies": {
+		"@hyperz111/prettier-config": "^0.1.1",
+		"prettier": "^3.6.2",
+		"typescript": "^5.9.2"
+	}
 }
