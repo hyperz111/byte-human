@@ -14,7 +14,7 @@
 		}
 	},
 	"scripts": {
-		"test": "pnpm run build && node --test",
+		"test": "pnpm run build && uvu test",
 		"format": "prettier -w **/*.{js*,ts,md} !dist",
 		"build": "tsc"
 	},
