@@ -15,7 +15,7 @@
 	},
 	"scripts": {
 		"test": "pnpm run build && node --test",
-		"format": "prettier -w **/*.{js*,ts} !dist",
+		"format": "prettier -w **/*.{js*,ts,md} !dist",
 		"build": "tsc"
 	},
 	"files": [

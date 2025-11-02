@@ -11,7 +11,7 @@ $ npm install byte-human
 ## Usage
 
 ```js
-import byteHuman from 'byte-human';
+import byteHuman from "byte-human";
 
 byteHuman(2324606976); // => 2.32 GB
 ```
@@ -41,7 +41,7 @@ Type: `string | undefined`
 Separator between number and unit, default is space.
 
 ```js
-import byteHuman from 'byte-human';
+import byteHuman from "byte-human";
 
 byteHuman(2324606976); // => 2.32 GB
 
@@ -55,7 +55,7 @@ Type: `number | undefined`
 For `Number#toFixed`, default is `2`.
 
 ```js
-import byteHuman from 'byte-human';
+import byteHuman from "byte-human";
 
 byteHuman(2324606976); // => 2.32 GB
 
