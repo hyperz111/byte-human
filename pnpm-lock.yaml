@@ -11,6 +11,9 @@ importers:
       '@hyperz111/prettier-config':
         specifier: ^0.1.1
         version: 0.1.1(prettier@3.6.2)
+      '@hyperz111/tsconfig':
+        specifier: ^0.1.0
+        version: 0.1.0
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -27,6 +30,9 @@ packages:
     resolution: {integrity: sha512-t89MibeTx0ZBxGCtZ3I0K3Qx1ehJpu1X+dHa57vroicG+3RYDCkmQMvKPzjj+C41kOR17WZD1MRyXbzGSYa6dw==}
     peerDependencies:
       prettier: '>=3.6.2'
+
+  '@hyperz111/tsconfig@0.1.0':
+    resolution: {integrity: sha512-+TTxe77PDFja9aiW7HSH0fxF3Z4SLmkl1Lhw7ZvG6mv+JgwHSzg4IcsZV5FDb5qwoGwOpszRe1TTbfY8kRcdYw==}
 
   dequal@2.0.3:
     resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
@@ -68,6 +74,8 @@ snapshots:
   '@hyperz111/prettier-config@0.1.1(prettier@3.6.2)':
     dependencies:
       prettier: 3.6.2
+
+  '@hyperz111/tsconfig@0.1.0': {}
 
   dequal@2.0.3: {}
 
