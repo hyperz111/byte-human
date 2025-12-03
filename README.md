@@ -64,4 +64,4 @@ byteHuman(2324606976, { fixed: 1 }); // => 2.3 GB
 
 ## Copyright
 
-Copyright © 2025-Present [Hyper-Z11](https://github.com/hyperz111/). Licensed under [ISC License](https://www.isc.org/licenses/).
+[ISC](https://www.isc.org/licenses/)
